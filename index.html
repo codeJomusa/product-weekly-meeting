@@ -572,7 +572,7 @@ async function startRace() {
     id:m.id, member:m,
     pos:startX,
     /* 트랙 너비 기준 속도: 부스트/감속 포함 약 10초 */
-    basePx: dist / ((12+Math.random()*3)*1000),
+    basePx: dist / ((15+Math.random()*3.75)*1000),
     boostPx:0, boostFrames:0,
     boostCooldown:Math.floor(30+Math.random()*60),
     slowActive:false, slowFrames:0,
